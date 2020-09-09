@@ -15,7 +15,8 @@ The workflow does the following:
 - Creates a [Pantheon](http://pantheonscience.org/) environment and build location
 - Clones a specific commit of [Spack](https://github.com/spack/spack)
 - Uses `spack` to build [Ascent](https://ascent.readthedocs.io/en/latest/) and set up a coupled app/in-situ workflow
-- Builds an application (optionally, depending upon the specific application)
+    - Optionally builds an application, depending on the workflow
+- Runs a parallel job that creates a `Cinema` database
 - Verifies the `Cinema` database
 
 ## Using this repository
