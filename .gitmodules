@@ -1,0 +1,9 @@
+[submodule "2020-08_miniapp-example"]
+	path = 2020-08_miniapp-example
+	url = git@github.com:cinemascienceworkflows/2020-08_miniapp-example.git
+[submodule "Ascent-miniapp-example"]
+	path = Ascent-miniapp-example
+	url = git@github.com:cinemascienceworkflows/2020-08_miniapp-example.git
+[submodule "Nyx-example"]
+	path = Nyx-example
+	url = git@github.com:cinemascienceworkflows/2020-08_miniapp-example.git
