@@ -12,31 +12,31 @@ to speed up the build/install of requisite applications. If no cached builds are
 
 The workflow does the following:
 
-1. Creates a [Pantheon](http://pantheonscience.org/) environment and build location
-2. Clones a specific commit of [Spack](https://github.com/spack/spack)
-3. Uses `spack` to build [Ascent](https://ascent.readthedocs.io/en/latest/) and set up a coupled app/in-situ workflow
-4. Builds an application (optionally, depending upon the specific application)
-5. Verifies the `Cinema` database
+- Creates a [Pantheon](http://pantheonscience.org/) environment and build location
+- Clones a specific commit of [Spack](https://github.com/spack/spack)
+- Uses `spack` to build [Ascent](https://ascent.readthedocs.io/en/latest/) and set up a coupled app/in-situ workflow
+- Builds an application (optionally, depending upon the specific application)
+- Verifies the `Cinema` database
 
 ## Using this repository
 
 First, clone the repository, then:
 
-1. Log onto Summit
-1. In a shell:
+- Log onto Summit
+- In a shell:
 ```
     git clone git@github.com:pantheonscience/ECP-Examples.git
     cd ECP-E4S-Examples
     git submodule update --init --recursive
 ```
-1. Edit the `bootstrap.env` file to include your summit allocation ID
-1. Execute the workflow by typing `./execute`
+- Edit the `bootstrap.env` file to include your summit allocation ID
+- Execute the workflow by typing `./execute`
 
 When the workflow is run, the following files will be run in this order:
 
-1. `setup/install-deps.sh`
-    - `setup/install-app.sh` (called from the above script)
-1. `run/run.sh` (this submits the job)
-1. `run/wait_for_completion.sh`
-1. `postprocessing/postprocessing.sh`
-1. `validate/validate.sh`
+- `setup/install-deps.sh`
+   - `setup/install-app.sh` (called from the above script)
+- `run/run.sh` (this submits the job)
+- `run/wait_for_completion.sh`
+- `postprocessing/postprocessing.sh`
+- `validate/validate.sh`
