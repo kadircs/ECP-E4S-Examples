@@ -26,7 +26,7 @@ First, clone the repository, then:
 - Log onto Summit
 - In a shell:
 ```
-    git clone git@github.com:pantheonscience/ECP-Examples.git
+    git clone git@github.com:pantheonscience/ECP-E4S-Examples.git
     cd ECP-E4S-Examples
     git submodule update --init --recursive
 ```
