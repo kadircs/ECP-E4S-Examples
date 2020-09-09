@@ -22,8 +22,15 @@ The workflow does the following:
 
 First, clone the repository, then:
 
-1. edit the `bootstrap.env` file to include your summit allocation ID
-2. `./execute` will execute the workflow
+1. Log onto Summit
+1. In a shell:
+```
+    git clone git@github.com:pantheonscience/ECP-Examples.git
+    cd ECP-E4S-Examples
+    git submodule update --init --recursive
+```
+1. Edit the `bootstrap.env` file to include your summit allocation ID
+1. Execute the workflow by typing `./execute`
 
 When the workflow is run, the following files will be run in this order:
 
