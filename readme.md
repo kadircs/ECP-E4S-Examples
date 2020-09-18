@@ -30,6 +30,7 @@ First, clone the repository, then:
     cd ECP-E4S-Examples
     git submodule update --init --recursive
 ```
+- Then, `cd` into the directory for the example you'd like to run
 - Edit the `bootstrap.env` file to include your summit allocation ID
 - Execute the workflow by typing `./execute`
 
