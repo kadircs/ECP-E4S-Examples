@@ -3,4 +3,4 @@
 	url = git@github.com:cinemascienceworkflows/2020-08_miniapp-example.git
 [submodule "Nyx-example"]
 	path = Nyx-example
-	url = git@github.com:cinemascienceworkflows/2020-08_miniapp-example.git
+	url = git@github.com:cinemascienceworkflows/2020-10_Nyx.git
