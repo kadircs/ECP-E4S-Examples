@@ -1,9 +1,0 @@
-#!/usr/bin/bash
-
-echo "Test Input Script"
-
-workdir = 'pantheon-report'
-
-pushd $workdir
-
-
